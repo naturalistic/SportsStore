@@ -1,0 +1,14 @@
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.Tests.deps.json
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.Tests.dll
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.dll
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.pdb
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp1.1\SportsStore.Tests.csprojResolveAssemblyReference.cache
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp1.1\SportsStore.Tests.AssemblyInfo.cs
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.Tests.pdb
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp1.1\SportsStore.Tests.dll
+C:\Users\danie\documents\visual studio 2017\Projects\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp1.1\SportsStore.Tests.pdb
+C:\Users\danie\Documents\Visual Studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\danie\Documents\Visual Studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Users\danie\Documents\Visual Studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Users\danie\Documents\Visual Studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.Tests.runtimeconfig.json
+C:\Users\danie\Documents\Visual Studio 2017\Projects\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp1.1\SportsStore.Tests.runtimeconfig.dev.json
