@@ -23,9 +23,10 @@ namespace SportsStore.Controllers
             {
                 page = 1;
             }
-            return View(new ProductsListViewModel {
+            var vm = new ProductsListViewModel
+            {
                 Products = repository.Products
-                    .Where(p => p.Category == null || p.Category == category)
+                    .Where(p => category == null || p.Category == category)
                     .OrderBy(p => p.ProductID)
                     .Skip((page - 1) * PageSize)
                     .Take(PageSize),
@@ -33,10 +34,14 @@ namespace SportsStore.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalItems = repository.Products.Count()
+                    TotalItems = category == null ?
+                        repository.Products.Count() :
+                        repository.Products.Where(e =>
+                            e.Category == category).Count()
                 },
                 CurrentCategory = category
-             });
+            };
+            return View(vm);
         }
     }
 }
