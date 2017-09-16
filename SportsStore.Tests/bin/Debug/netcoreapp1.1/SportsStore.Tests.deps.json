@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "2fce32232865afe93e7b81598926ab27b5d7cee3"
+    "signature": "1e85df4dcdd2db3ca69bc7064b850482a8399afb"
   },
   "compilationOptions": {},
   "targets": {
@@ -73,6 +73,29 @@
           "lib/netstandard1.3/Microsoft.AspNetCore.Antiforgery.dll": {}
         }
       },
+      "microsoft.aspnetcore.authentication/1.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.DataProtection": "1.1.2",
+          "Microsoft.AspNetCore.Http": "1.0.3",
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.2",
+          "Microsoft.Extensions.Options": "1.1.2",
+          "Microsoft.Extensions.WebEncoders": "1.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.authentication.cookies/1.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "1.0.3",
+          "Microsoft.Extensions.Options": "1.1.2",
+          "Microsoft.Extensions.WebEncoders": "1.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
+        }
+      },
       "microsoft.aspnetcore.authorization/1.0.3": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "1.1.2",
@@ -96,6 +119,14 @@
       "microsoft.aspnetcore.cryptography.internal/1.1.2": {
         "runtime": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.cryptography.keyderivation/1.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
       "microsoft.aspnetcore.dataprotection/1.1.2": {
@@ -232,6 +263,26 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.AspNetCore.HttpOverrides.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.identity/1.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Cookies": "1.0.3",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "1.0.3",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Identity.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.identity.entityframeworkcore/1.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "1.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "1.0.4",
+          "System.ComponentModel.TypeConverter": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
         }
       },
       "microsoft.aspnetcore.jsonpatch/1.0.0": {
@@ -1249,6 +1300,7 @@
         "dependencies": {
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.0.5",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.3",
           "Microsoft.AspNetCore.Mvc": "1.0.4",
           "Microsoft.AspNetCore.Session": "1.1.2",
           "Microsoft.AspNetCore.StaticFiles": "1.0.3",
@@ -1302,6 +1354,20 @@
       "path": "microsoft.aspnetcore.antiforgery/1.0.4",
       "hashPath": "microsoft.aspnetcore.antiforgery.1.0.4.nupkg.sha512"
     },
+    "microsoft.aspnetcore.authentication/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c4F6jM60IuBvYThl3hx1ynLlrg5cPM8Y6zqOxhPGy23HES8qRPqwJ3igJS2wUxRLbhpo423/2wroqv0C9DbwYA==",
+      "path": "microsoft.aspnetcore.authentication/1.0.3",
+      "hashPath": "microsoft.aspnetcore.authentication.1.0.3.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.authentication.cookies/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWvxif9nNqoAhRz1ZjqsIVdwgPFEYlI2hUqsWyE7DRBxeFKLgyZVTRXeJJaPjxQ/Od9c9tZvlY+uc/PxlKkEOw==",
+      "path": "microsoft.aspnetcore.authentication.cookies/1.0.3",
+      "hashPath": "microsoft.aspnetcore.authentication.cookies.1.0.3.nupkg.sha512"
+    },
     "microsoft.aspnetcore.authorization/1.0.3": {
       "type": "package",
       "serviceable": true,
@@ -1322,6 +1388,13 @@
       "sha512": "sha512-DeDm7XO+/QVlxp+tefXbt2Mm10mw3BpUWvN9YVgl1Ykg08nBox95ZQ9EKLt/CpaANFGp//nJqpc93NTMKlwNnQ==",
       "path": "microsoft.aspnetcore.cryptography.internal/1.1.2",
       "hashPath": "microsoft.aspnetcore.cryptography.internal.1.1.2.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.cryptography.keyderivation/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t3JOcGtAZnoxP7F9jiDn3PTfE0EgMh0pQP/Oi9xoFFOU35wftSbfWPsR7EJMaghdZ0a/Z0aRK6Lg0uB3OMT8ZQ==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/1.0.3",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.1.0.3.nupkg.sha512"
     },
     "microsoft.aspnetcore.dataprotection/1.1.2": {
       "type": "package",
@@ -1413,6 +1486,20 @@
       "sha512": "sha512-BoMKX8Osu/YhknN2NWW/JXGICRQ8GclLhytNQKvWJKPnVoe1RwjwdDh4ZVlW5CzXlv38MR0nh06iVVXZ088YDg==",
       "path": "microsoft.aspnetcore.httpoverrides/1.0.3",
       "hashPath": "microsoft.aspnetcore.httpoverrides.1.0.3.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.identity/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZuynmqEgVXCYPzS0L3emBe/uw0fK/JQ1CGpMWqa4pzU82sUDUrqTrHwlctZDenSChQu2yLmQbuNVcVqgR6Sr6A==",
+      "path": "microsoft.aspnetcore.identity/1.0.3",
+      "hashPath": "microsoft.aspnetcore.identity.1.0.3.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.identity.entityframeworkcore/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e8fkYoWcvO3etbhvDLynzxuEWBQqTOM15BzZhwIr1jqzfSP7ykBjj08y12HbHhguSUjqQB42uQBhYby+m99n/g==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/1.0.3",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.1.0.3.nupkg.sha512"
     },
     "microsoft.aspnetcore.jsonpatch/1.0.0": {
       "type": "package",

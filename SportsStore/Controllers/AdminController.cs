@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SportsStore.Models;
 
 namespace SportsStore.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
@@ -43,7 +45,7 @@ namespace SportsStore.Controllers
         [HttpPost]
         public IActionResult Delete(int productId)
         {
-            Product deleteProduct = repository.DeleteProduct(productId);
+            Product deletedProduct = repository.DeleteProduct(productId);
             if (deletedProduct != null)
             {
                 TempData["message"] = $"{deletedProduct.Name} was deleted";
